@@ -1,0 +1,16 @@
+#write a program toaccept the marks of 6 student and siplay them in sorted manner
+marks1=int(input("enter the marks:"))
+marks2=int(input("enter the marks:"))
+marks3=int(input("enter the marks:"))
+marks4=int(input("enter the marks:"))
+marks5=int(input("enter the marks:"))
+marks6=int(input("enter the marks:"))
+list1=[]
+list1.append(marks1)
+list1.append(marks2)
+list1.append(marks3)
+list1.append(marks4)
+list1.append(marks5)
+list1.append(marks6)
+list1.sort()
+print(list1)
