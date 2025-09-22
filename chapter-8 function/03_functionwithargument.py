@@ -1,6 +1,8 @@
 def goodday(name,ending):
     print(f"good day {name}")
     print(ending)
+    return "done"
 
-goodday("rishabh","thankyou!")
+a=goodday("rishabh","thankyou!")
+print(a)
        
