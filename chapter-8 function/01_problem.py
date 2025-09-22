@@ -4,4 +4,4 @@ def average():#function
     c=56
     average=(a+b+c)/3
     print(average)
-average()
+average()  
